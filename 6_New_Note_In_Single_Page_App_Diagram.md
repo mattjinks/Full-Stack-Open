@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -8,4 +8,4 @@ sequenceDiagram
     activate server
     server-->>browser: HTTP status code 201 (Created Note)
     deactivate server
-:::mermaid
+```
